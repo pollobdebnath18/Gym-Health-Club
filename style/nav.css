@@ -1,0 +1,26 @@
+/* for font  */
+
+.inter-all-text {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+/* width */
+.width{
+    width: 1100px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item1{
+    display: flex;
+}
