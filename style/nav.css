@@ -8,9 +8,12 @@
 }
 
 /* width */
+
 .width {
     width: 1000px;
     margin: 0 auto;
+
+    background-color: #000000;
 }
 
 nav ul li {
@@ -37,7 +40,7 @@ nav ul li a {
 }
 
 .navitem {
-    color: black;
+    color: rgba(255, 255, 255, 1);
 }
 
 .btn_nav {
@@ -48,4 +51,64 @@ nav ul li a {
     border: none;
     padding: 8px;
     border-radius: 46px;
+}
+.btn1{
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #E6533C;
+    border: none;
+    padding: 8px;
+    border-radius: 46px;
+}
+.btn2{
+     color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 600;
+    background-color: black;
+    padding: 8px;
+    border-radius: 46px;
+     border: 2px solid white;
+}
+.two_btn{
+    display: flex;
+    gap: 20px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+}
+.banner_title{
+ font-size: 78px;
+ color: rgba(255, 255, 255, 1);
+ margin-right: 100px;
+ margin-bottom: 30px;
+ line-height: 80px;
+}
+.banner_des{
+ font-size: 15px;
+ color: rgba(255, 255, 255, 0.5);
+ margin-bottom: 30px;
+}
+.banner_img{
+    height: 500px;
+}
+.top_text1{
+    color: rgba(255, 255, 255, 1);
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.top_text2{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 10px;
+    margin-top: 0;
+}
+.top_btn p{
+ margin: 0;
+}
+.top_btn{
+    padding: 0 10px;
+    border-radius: 7px;
+    margin-top: 0px;
+    background-color: rgba(255, 255, 255, 0.1);
 }
