@@ -38,11 +38,10 @@ nav ul li a {
 .fitness {
     color: rgba(230, 134, 60, 0.91);
 }
-
 .navitem {
+    
     color: rgba(255, 255, 255, 1);
 }
-
 .btn_nav {
     color: rgba(255, 255, 255, 1);
     font-size: 15px;
@@ -112,3 +111,12 @@ nav ul li a {
     margin-top: 0px;
     background-color: rgba(255, 255, 255, 0.1);
 }
+/* Responsive for small device */
+@media screen and (max-width: 576px){
+    .banner{
+        flex-direction: column;
+    }
+    .item1{
+        display: none;
+    }
+} 
