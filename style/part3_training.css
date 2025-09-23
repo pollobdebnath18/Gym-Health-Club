@@ -1,0 +1,72 @@
+.part3_title{
+   font-size: 2.7rem;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 0;
+}
+.part3_des{
+     font-size: 0.7rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+    max-width: 60ch;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    padding-right: 300px;
+}
+.img_container1{
+    
+}
+.every_img1{
+    position: relative;
+    display: inline-block;
+}
+.p3_img1{
+    width: 250px;
+    height: 200px;
+    background-color: rgba(6, 255, 210, 0.5);
+   
+}
+.p3_practice{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 14px;
+    font-weight: 500;
+}
+.every_img2{
+    position: relative;
+    display: inline-block;
+}
+.p3_img2{
+    width: 490px;
+    height: 200px;
+}
+.p3_bookdown{
+    position: absolute;
+    bottom: 140px;
+    left: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.5;
+}
+.every_img3{
+    position: relative;
+    display: inline-block;
+}
+.p3_img3{
+     width: 250px;
+    height: 200px;
+    background-color: rgba(6, 255, 210, 0.5);
+}
+.p3_two{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 12px;
+    font-weight: 500;
+    max-width: 20ch;
+}
