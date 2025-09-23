@@ -60,8 +60,9 @@ nav ul li a {
     font-weight: 600;
     background-color: #E6533C;
     border: none;
-    padding: 8px;
+    padding: 10px;
     border-radius: 46px;
+    letter-spacing: 0.5;
 }
 
 .btn2 {

@@ -1,0 +1,55 @@
+.part2_run{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    background-color:rgba(34, 34, 34, 1);
+    border-radius: 15px;
+}
+.p2_title {
+    font-size: 2.7rem;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding-right: 300px;
+}
+
+.p2_des {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+    max-width: 60ch;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding-right: 300px;
+}
+.btn_p{
+    margin: 0;
+}
+.p2_btn{
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #E6533C;
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 46px;
+    letter-spacing: 0.5;
+}
+.part2_right{
+    padding: 30px;
+}
+.part2_left{
+    padding: 30px;
+}
+.p2_img{
+    height: 200px;
+    width: 250px;
+    border-radius: 18px;
+}
+.part2_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
