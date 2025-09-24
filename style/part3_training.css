@@ -1,11 +1,12 @@
-.part3_title{
-   font-size: 2.7rem;
+.part3_title {
+    font-size: 2.7rem;
     font-weight: 900;
     color: rgba(255, 255, 255, 1);
     margin-bottom: 0;
 }
-.part3_des{
-     font-size: 0.7rem;
+
+.part3_des {
+    font-size: 0.7rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     margin-top: 10px;
@@ -14,20 +15,20 @@
     margin-bottom: 50px;
     padding-right: 300px;
 }
-.img_container1{
-    
-}
-.every_img1{
+
+.img_container1 {}
+
+.every_img1 {
     position: relative;
     display: inline-block;
 }
-.p3_img1{
+
+.p3_img1 {
     width: 250px;
     height: 200px;
-    background-color: rgba(6, 255, 210, 0.5);
-   
 }
-.p3_practice{
+
+.p3_practice {
     position: absolute;
     bottom: 10px;
     left: 20px;
@@ -35,15 +36,18 @@
     font-size: 12px;
     font-weight: 500;
 }
-.every_img2{
+
+.every_img2 {
     position: relative;
     display: inline-block;
 }
-.p3_img2{
+
+.p3_img2 {
     width: 490px;
     height: 200px;
 }
-.p3_bookdown{
+
+.p3_bookdown {
     position: absolute;
     bottom: 140px;
     left: 20px;
@@ -52,16 +56,18 @@
     font-weight: 500;
     opacity: 0.5;
 }
-.every_img3{
+
+.every_img3 {
     position: relative;
     display: inline-block;
 }
-.p3_img3{
-     width: 250px;
+
+.p3_img3 {
+    width: 250px;
     height: 200px;
-    background-color: rgba(6, 255, 210, 0.5);
 }
-.p3_two{
+
+.p3_two {
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -70,15 +76,18 @@
     font-weight: 500;
     max-width: 20ch;
 }
-.every_img4{
+
+.every_img4 {
     position: relative;
     display: inline-block;
 }
-.p3_img4{
+
+.p3_img4 {
     width: 370px;
     height: 200px;
 }
-.p3_leg{
+
+.p3_leg {
     position: absolute;
     bottom: 140px;
     left: 250px;
@@ -88,16 +97,18 @@
     opacity: 0.5;
     max-width: 20ch;
 }
-.every_img5{
+
+.every_img5 {
     position: relative;
     display: inline-block;
 }
-.p3_img5{
-     width: 250px;
+
+.p3_img5 {
+    width: 250px;
     height: 200px;
-    background-color: rgba(6, 255, 210, 0.5);
 }
-.p3_works{
+
+.p3_works {
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -106,15 +117,18 @@
     font-weight: 500;
     max-width: 20ch;
 }
-.every_img6{
+
+.every_img6 {
     position: relative;
     display: inline-block;
 }
-.p3_img6{
+
+.p3_img6 {
     width: 370px;
     height: 200px;
 }
-.p3_glutes{
+
+.p3_glutes {
     position: absolute;
     bottom: 140px;
     left: 250px;
@@ -125,19 +139,35 @@
     max-width: 20ch;
 }
 
-
-/* .img_container1{
-    display: flex;
-}
-.img_container2{
-    display: flex;
-} */
 /* responsive for small device */
 @media screen and (max-width: 576px) {
-    .p3_leg, .p3_glutes, .p3_bookdown {
-        bottom: 10px;
-        left: 10px;
-        font-size: 10px;
+    .p3_img2 {
+        width: 400px;
+        height: 200px;
+    }
+
+    .p3_first {
+        padding-left: 50px;
+    }
+
+    .part3_des {
+        max-width: 50ch;
+        line-height: 1.5;
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .p3_img1,
+    .p3_img2,
+    .p3_img3,
+    .p3_img4,
+    .p3_img5,
+    .p3_img6 {
+       height: 200px;
+       width: 300px;
+    }
+    .img_container img{
+        padding-left: 60px;
+        padding-bottom: 20px;
     }
 }
-
