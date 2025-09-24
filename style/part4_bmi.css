@@ -1,28 +1,118 @@
-.part4_bmi{
+.part4_bmi {
     background-color: rgba(34, 34, 34, 1);
     border-radius: 15px;
+    /* padding-left: 100px; */
 }
-.bmi1{
+
+.bmi1 {
     margin-top: 200px;
     padding-left: 140px;
     padding-top: 30px;
 }
-.p4_bmi{
-    font-size: 1.8rem;
+
+.p4_bmi {
+    font-size: 1.6rem;
     font-weight: 900;
     color: rgba(255, 255, 255, 1);
+    /* padding-left: 7px; */
     /* margin-bottom: 10px;
     margin-top: 0; */
 }
-th,td{
+
+.right_des {
+    padding-left: 100px;
+}
+
+.right_title {
+    padding-left: 100px;
+}
+
+.bmi_left {
+    padding-left: 100px;
+}
+
+th,
+td {
     /* border: 1px solid rgba(255, 255, 255, 0.1); */
     border: 1px solid white;
-    padding: 20px;
-    color:rgba(255, 255, 255, 1);
+    padding: 10px;
+    color: rgba(255, 255, 255, .6);
     text-align: left;
+    font-size: 10px;
 }
-.input_all{
+
+.input_all {
     background-color: rgba(255, 255, 255, 0.6);
 }
 
+/* form */
+.form_row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
 
+form input,
+form select {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #3a3a3a;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+form input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+form select {
+    cursor: pointer;
+}
+
+.p4_flex {
+    display: flex;
+}
+
+.bmi_container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.form_btn {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(230, 83, 60, 1);
+    padding: 13px;
+    border-radius: 42px;
+    width: 180px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 576px) {
+    .p4_flex {
+        flex-direction: column;
+    }
+
+    .bmi_container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .form_btn{
+        margin-left: 120px;
+    }
+    .bmi_left{
+        margin-bottom: 80px;
+    }
+    .xbmi{
+        padding-right: 200px;
+    }
+    
+.bmi1 {
+    padding-left: 80px;
+}
+}
