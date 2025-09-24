@@ -15,19 +15,14 @@
     margin-bottom: 50px;
     padding-right: 300px;
 }
-
-.img_container1 {}
-
 .every_img1 {
     position: relative;
     display: inline-block;
 }
-
 .p3_img1 {
     width: 250px;
     height: 200px;
 }
-
 .p3_practice {
     position: absolute;
     bottom: 10px;
@@ -36,7 +31,6 @@
     font-size: 12px;
     font-weight: 500;
 }
-
 .every_img2 {
     position: relative;
     display: inline-block;
