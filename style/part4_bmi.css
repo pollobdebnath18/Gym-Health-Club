@@ -91,6 +91,7 @@ form select {
     border: none;
     margin-top: 20px;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 576px) {
@@ -102,17 +103,20 @@ form select {
         padding-left: 30px;
         padding-right: 30px;
     }
-    .form_btn{
+
+    .form_btn {
         margin-left: 120px;
     }
-    .bmi_left{
+
+    .bmi_left {
         margin-bottom: 80px;
     }
-    .xbmi{
+
+    .xbmi {
         padding-right: 200px;
     }
-    
-.bmi1 {
-    padding-left: 80px;
-}
+
+    .bmi1 {
+        padding-left: 80px;
+    }
 }
